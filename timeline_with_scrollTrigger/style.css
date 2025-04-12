@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+body{overflow-x: hidden;}
+
+#main{
+    height:100%;
+    width:100%;
+    
+}
+.section1{
+    height:100%;
+    width:100%;
+    position:relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:50px 80px;
+}
+
+
+.part2{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap:20px;
+}
+nav a{
+    text-decoration: none;
+    color:black;
+    font-weight:950;
+}
+nav button{
+    padding:10px;
+    font-size:15px;
+    font-weight:900;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border-radius: 5px;
+    border:2px solid black;
+    background-color: white;
+}
+nav h1{
+    font-size: 25px;
+    font-weight:900;
+}
+nav a{
+    font-size:20px;
+    font-weight:1000;
+}
+
+nav h1 i{
+    display: inline-block;
+    rotate: 45deg;
+}
+.center{
+    padding:50px 80px;
+    display: flex;
+    justify-content: space-between;
+    /* height:60%; */
+    width:100%;
+}
+.center-part1{
+    width:40%;
+    /* height:100%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+    
+}
+.center-part1 h1{
+    font-size:80px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+}
+
+.center-part1 h4{
+    font-size:20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.center-part1 button{
+    width:fit-content;
+    padding:13px;
+    border-radius:10px;
+    background-color: black;
+    color:white;
+    border:none;
+}
+.center-part2{
+    /* height:100%; */
+    width:60%;
+    position:relative;
+}
+.center-part2 img{
+    height:100%;
+    position: absolute;
+    right:0;
+}
+.sectionbottom{
+    display:flex;
+    justify-content: space-between;
+    padding:50px 80px;
+}
+.sectionbottom img{
+    height:50px;
+    
+}
+.section2{
+    width:100%;
+    position: relative;
+}
+.section2 .services{
+    /* background-color: red; */
+    margin-top:200px;
+    padding:50px 80px;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.services h1{
+    background-color:limegreen;
+    font-size:30px;
+    font-weight:800;
+    padding:10px 15px; 
+    border-radius:10px;
+}
+
+.services p{
+    width:60%;
+    font-size:20px;
+}
+.container{
+    width:100%;
+    height:85%;
+    padding:50px 80px;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    color:white;
+    gap:30px;
+    margin-bottom:80px;
+}
+.elem{
+    flex-shrink: 0;
+    height: 300px;
+    width:45%;
+    border:3px solid black;
+    border-radius:10px;
+    background-color: black;
+    margin-bottom: 10px;
+    /* box-shadow mein x mein y mein blue color */
+    box-shadow:10px 15px 2px rgb(45, 44, 44);
+    display: flex;
+    
+} 
+.data{
+    padding:10px 20px;
+    height:100%;
+    width:60%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+.image-section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px;
+    padding:5px;
+    
+}
+.data i{
+    color: black;
+    border:2px solid white;
+    border-radius: 50%;
+    background-color: white;
+}
+.proposal{
+    margin:30px 80px;
+    width:90%;
+    
+    padding:20px 50px;
+    /* background-color: red; */
+    display: flex;
+    background-color: grey;
+    justify-content: space-evenly;
+    border-radius:20px;
+    /* margin-bottom:100px; */
+}
+.container_info{
+    height:100%;
+    width:50%;
+    display: flex;
+    padding:35px 50px;
+    border-radius: 20px;
+    flex-direction: column;
+    gap:30px
+}
+.container_info h1{
+    font-size: 45px;
+    font-weight:900;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container_info p{
+    font-size:20px;
+    font-weight:530;
+
+}
+.container_info button{
+    width:fit-content;
+    padding:10px 20px;
+    border-radius: 10px;
+    color:white;
+    background-color: black;
+}
+
+.proposal img{
+    height:20vw;
+}
